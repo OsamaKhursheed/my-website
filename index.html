@@ -6,15 +6,19 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" type="text/css" href="landingpage.css"> 
+    <link rel="stylesheet" type="text/css" href="index.css"> 
+    <link rel="preload" as="style" href="index.css" />
+    <link rel="preload" as="image" href="landing-pics/image2.webp" />
+    <link rel="preload" href="http://192.168.72.1:5500/landing-pics/bg3.webp" as="image">
+
 </head>
 <body>
 <div class="main-container">
     <div class="navbar">
-        <div>
+        <div class="nav-heading">
             <h1><strong>My Landing Page</strong></h1>
         </div>
-        <div >
+        <div class="nav-btn">
             <a href="cv.html"><button class="large-button">My Cv</button></a>
             <a href="portfolio.html"><button class="large-button">My Portfolio</button></a>
             <a href="portfolio.html#about-section"><button class="large-button" >About Me</button></a>
@@ -22,7 +26,7 @@
         </div>
     </div>
     <div class="portfolio-container">    
-        <div class="portfolio-text" data-aos="fade-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+        <div class="portfolio-text">
             <span class="subtitle">Welcome to my world</span>
             <h1 class="title"><strong>Hi, I’m </strong><span class="name"><strong>Osama Khursheed</strong></span></h1>
             <div class="rotate-container">
@@ -32,8 +36,8 @@
                 <p class="description"><span class="auto-des"></span></p>
             </div>
         </div>
-        <div class="portfolio-image" data-aos="fade-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
-            <img src="image2.png" alt="Image 1">
+        <div class="portfolio-image">
+            <img src="landing-pics/image2.webp" alt="Image 1">
         </div>
     </div>
 </div>
@@ -99,8 +103,8 @@
         <h1><strong>MY CERTIFCATIONS</strong></h1>
     </div>
     <div class="cert-content">
-        <div class="cert-item" style="height: 620px;"data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
-            <h2><i class="bi bi-mortarboard custom-icon"></i><strong>   Coursera Certificates</strong></h2>
+        <div class="cert-item" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+            <h2><i class="bi bi-mortarboard custom-icon"></i><strong>   Coursera Certificates:</strong></h2>
             <p>Welcome to my Coursera certifications section. I've completed several online courses on Coursera to enhance my skills and knowledge. Here are some of the certifications I've earned:</p>
             <ul>
                 <li><i class="bi bi-check"></i> Digital Systems: From Logic Gates to Processors</li>
@@ -115,8 +119,8 @@
             </div>
         </div>
         <div class="cert-item" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
-            <h2><i class="bi bi-mortarboard custom-icon"></i><strong>        EF SET Certificate</strong></h2>
-            <p style="font-size: 31px;">I have successfully completed the EF Standard English Test (EF SET) with a proficiency level of C2. This achievement reflects my dedication to mastering the English language, and I look forward to utilizing this exceptional language proficiency in various academic and professional endeavors.</p>
+            <h2><i class="bi bi-mortarboard custom-icon"></i><strong>        EF SET Certificate:</strong></h2>
+            <p>I have successfully completed the EF Standard English Test (EF SET) with a proficiency level of C2. This achievement reflects my dedication to mastering the English language, and I look forward to utilizing this exceptional language proficiency in various academic and professional endeavors.</p>
             <div class="center-button">
                 <a href="portfolio.html#course-section">See Details</a>
             </div>
