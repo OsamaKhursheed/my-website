@@ -278,20 +278,16 @@
         const phoneNumber = "03322151028";
     
         whatsappIcon.addEventListener("click", function() {
-            // Create a temporary input element to copy the phone number
             const tempInput = document.createElement("input");
             tempInput.value = phoneNumber;
             document.body.appendChild(tempInput);
             tempInput.select();
             document.execCommand("copy");
             document.body.removeChild(tempInput);
-    
-            // Display a message to indicate that the phone number has been copied
             alert("Phone number copied to clipboard: " + phoneNumber);
         });
     });
 </script>
-
 </body>
 </html>
 
