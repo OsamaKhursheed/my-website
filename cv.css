@@ -1,7 +1,8 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    padding: 0px;
+    width: 100%;
+    margin: 0px;
     background-color: white;
 }
 
@@ -9,7 +10,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 10px;
+    padding: 0px;
     width: 100%;
     height: auto;
 }
@@ -22,14 +23,14 @@ body {
     flex-direction: column;
     align-items: center;
     border-right: 2px solid black;
-    padding: 10px;
+    padding: 0px;
 }
 
 .image-div{
-    padding: 10px;
+    padding: 0px;
     width: 80%;
     height: 240px;
-    padding-bottom: 30px;
+    padding: 20px;
 }
 
 .small-div1 img {
@@ -57,14 +58,20 @@ body {
 .small-div2 {
     flex: 1;
     color: white;
-    padding: 10px;
+    padding: 0px;
 }
 
 .info-div{
-    font-size: 15px;
-    margin: 5px;
+    font-size: 13px;
+    margin: 0px;
     text-align: center;
     color:black;
+}
+.info-div h1,h2{
+    font-size: 18px;
+    margin: 0px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 hr {
@@ -76,16 +83,24 @@ hr {
 .liner {
     background-color:black;
     height: 2px;
-    width: 99%;
+    width: 95%;
 }
 
 .contact-box-div {
     background-color: black;
-    padding: 10px;
+    padding: 0px;
     width: 100%;
+    margin: 0px;
     height: auto;
     border: 1px solid #ccc;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+}
+
+.contact-box-div h3{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 10px;
 }
 
 .main-contact {
@@ -103,14 +118,19 @@ hr {
 
 .contact-div {
     flex: 1;
-    padding: 5px;
-    margin: 5px;
-    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px;
 }
 
+.contact-div h4,p{
+    font-size: 13px;
+    padding: 10px;
+    font-family: sans-serif;
+}
 .custom-icn {
     padding: 2px;
-    font-size: 20px;
+    font-size: 18px;
     display: flex;
     align-items: center;
     height: 100%;
@@ -123,84 +143,147 @@ hr {
 .experience-div {
     background-color: white;
     color: black;
-    padding: 10px;    
+    padding: 0px;
+    margin: 0px;    
+}
+.experience-div h1{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
 }
 
 .paragraph-div {
-    padding: 10px;
-    margin: 6px 0;
-    font-size: 16px;
+    padding: 0px;
+    margin: 0px auto;
+    margin-bottom: 30px;
+    width: 95%;
     border: 1px solid #ccc;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
 }
 
-.paragraph-div p{
+.paragraph-div h1{
+    padding: 10px;
     font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.paragraph-div p{
+    font-size: 13px;
+    font-family: sans-serif;
+    padding: 10px;
     text-align: justify;
 }
 
 .education-div {
     background-color: #fff;
-    padding: 10px;
+    padding: 0px;
     color: black;
     
 }
+.education-div h1{
+    font-size: 18px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
 
 .education-item {
-    padding: 10px;
+    padding: 0px;
     display: flex;
     flex-wrap: wrap;
-    margin: 6px 0;
+    margin: 30px auto;
+    width: 95%;
+    height: auto;
     color: black;
     border: 1px solid #ccc;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
 }
 
+.education-item h2,h4{
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+}
 .year-box {
     color: black;
-    padding: 15px;
+    padding: 0px;
+    margin: 20px auto;
     text-align: center;
+    justify-content: center;
     min-width: 80px;
 }
+.year-box h2{
+    margin: 50px auto;
 
+}
 .info-box {
     flex: 1;
+    padding: 0px;
+    margin: 20px auto;
+}
+
+.info-box h3{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
     padding: 10px;
+    margin: 0px;
+}
+
+.info-box h4{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    margin: 0px;
+}
+
+.info-box h5{
+    font-size: 13px;
+    font-family: sans-serif;
+    padding: 10px;
+    margin: 0px;
 }
 
 .info-box p {
-    font-size: 14px;
-    margin: 5px 0;
+    font-family: sans-serif;
+    font-size: 13px;
+    margin: 0px;
+    padding: 10px;
 }
 
-.year-box h2{
-    display: flex;
-    align-items: center;
-}
 
 .certifications-div {
     background-color: #fff;
-    padding: 5px;
+    padding: 0px;
 }
 
 .certification-item {
-    margin: 5px 0;
+    margin: 0px;
+}
+
+.certification-item h3{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    margin: 10px;
 }
 
 .certification-info {
     border-left: 4px solid #0074d9;
-    padding: 10px;
+    padding: 0px;
+    width: 95%;
+    margin: 20px auto;
     border-radius: 10px;
     border: 1px solid #ccc;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
 }
 
 h4 {
-    margin: 0;
+    margin: 0px;
 }
 
-p {
-    margin: 5px 0;
+.certification-info p,a{
+    margin: 0px;
+    padding: 10px;
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 a {
@@ -212,15 +295,23 @@ a {
     height: auto;
     display:flex;
     width:100%;
-    padding: 5px;
+    padding: 0px;
 }
 
 .skills-div {
     width: 100%;
     height: auto;
     color: black;
+    padding: 10px;
 }
-
+.skills-div h1{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.skills-div h4{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
 .star-ratings {
     display: flex;
     color: #f2d54b;
@@ -246,7 +337,7 @@ a {
 }
 
 .linkedin-div {
-    padding: 10px;
+    padding: 20px;
     height: 10%;
     width: 80%;
 }
@@ -271,19 +362,29 @@ a {
     border-radius: 5px;
     font-weight: bold;
     margin-top: 15px;
+    align-items: center;
 }
 
 .objective-div {
     color:black;
-    padding: 10px;
+    padding: 0px;
     border-radius: 10px;
     border: 1px solid #ccc;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
     transition: background-color 0.3s, color 0.3s;
-}
+    width: 95%;
 
+}
+.objective-div h1 {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 10px;
+    text-align: justify;
+}
 .objective-div p {
-    font-size: 12px;
+    font-size: 13px;
+    font-family: sans-serif;
     line-height: 1.5;
     text-align: justify;
 }
@@ -291,40 +392,53 @@ a {
 .objective-div:hover {
     background-color: black;
     color: white;
-    transform: scale(1.1);
+    transform: scale(1.05);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5), 10px 10px 15px rgba(0, 0, 0, 0.5);
 }
 
 .navbar {
-    color: white;
-    padding: 10px;
+    background-color: white;
+    padding: 0px;
     display: flex;
     flex-wrap: wrap;
-    background-color: black;
     justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
     width: 100%;
-    height: 75px;            
+    height: 75px;
 }
-.nav-heading{
-    width: 30%; 
+
+.nav-heading {
+    width: 30%;
+    background-color: black;
+    color: white;
     height: auto;
+    display: flex;
+    align-items: center;
 }
+
+.nav-heading h1 {
+    font-size: 18px;
+    margin: 0;
+    padding: 10px;
+    padding-left: 50px;
+}
+
 .nav-btn {
     width: 70%;
+    background-color: black;
+    color: white;
     height: auto;
-    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
-.nav-heading h1{
-    font-size: 30px;
-}
-
 
 .large-button {
-    width: 15%;
-    height: 75%;
-    padding: 1px 1px;
-    font-size: larger;
-    border: 1px solid green;
+    width: 100%;
+    height: 100%;
+    padding: 4px;
+    font-size: 10px;
+    border: 1px solid greenyellow;
     color: white;
     border-radius: 10px;
     background-color: transparent;
@@ -333,8 +447,10 @@ a {
 }
 
 .large-button:hover {
+    color: white;
     background-color: green;
 }
+
 
 .footer {
     background-color: #333;
@@ -348,12 +464,12 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 0px;
 }
 
 .footer-links {
     display: flex;
-    font-size: 20px;
+    font-size: 18px;
     align-items: center;
 }
 
@@ -376,7 +492,7 @@ a {
 .social-icons a {
     display: inline-block;
     margin: 0 10px;
-    font-size: 25px;
+    font-size: 18px;
     color: #fff;
     text-decoration: none;
     transition: color 0.3s;
@@ -401,29 +517,31 @@ a {
 }
 @media (max-width: 1100px) {
     .navbar {
-        display: block;
         height: auto;
-        align-items: center;
+        background-color: black;
+        border: none;
     }
-    .nav-heading{
-        align-items: center;
+
+    .nav-heading {
         width: 100%;
-        
-    }
-    .nav-heading h1{
         text-align: center;
-        font-size: small;
-        width: 100%;
+        justify-content: center;
+        padding-top: 20px;
     }
+
+    .nav-heading h1 {
+        padding-left: 10px;
+    }
+
     .nav-btn {
         width: 100%;
-        align-content: center;
-        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 0px;
     }
 
     .large-button {
-        width: 25%;
-        font-size: 75%;
+        width: 100%;
+        font-size: 10px;
         margin: 5px 10%;
     }
 }
@@ -459,7 +577,13 @@ a {
         flex-direction: column;
     
     }
-    #mb1,#mb2{
+    .small-div2 .objective-div{
+        display: none;
+    }
+    #mb1{
+        display: none;
+    }
+    #mb2{
         display: flex;
         margin-top: 25px;
     }
@@ -467,7 +591,7 @@ a {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 0;
+        margin: 0px;
     }
     .small-div2 .mobile-div2 .linkedin-div {
         display: flex;
@@ -477,7 +601,7 @@ a {
         align-items: center;
     }
     .small-div2 .linkedin-barcode {
-        height: 200px;
+        height: 250px;
     }
     .small-div1 .linkedin-div{
         display: none;
